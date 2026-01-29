@@ -1,0 +1,25 @@
+@media (min-width: 1200px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1280px;
+	}
+}
+
+@media (min-width: 992px) {
+	.image-gallery-wrapper {
+		margin-right: calc(-50vw + 50%);
+		padding-left: 4.5rem;
+	}
+	.last-item {
+		border-right: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.col-6:nth-child(2n) {
+		border-right: none;
+	}
+}
